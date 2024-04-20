@@ -1,0 +1,188 @@
+/* Solana Colors */
+.solana-font-color {
+    color: #f33d0b;
+}
+.solana-default-bg {
+    background-color: #EF5A29;
+}
+.solana-font-white {
+    color: #FFFFFF;
+}
+
+/* delete */
+.solana-border > div > div {
+    border: 1px solid rgb(211, 217, 222)!important;
+}
+
+/* Buttons */
+.solana-btn {
+    color: #FFFFFF;
+    background-color: #f6643c!important;
+}
+.solana-btn:hover {
+    color: #FFFFFF;
+    background-color: #db380a!important;
+}
+.solana-btn-outline {
+    border: 1px solid #f6643c!important;
+}
+.solana-offcanvas-menu > a {
+    letter-spacing: 0.20em;
+}
+.solana-offcanvas-menu > a:hover {
+    color: #f6643c!important;
+    background-color: transparent;
+}
+
+/* SVG Underline Style 1 (start) */
+.underline-s1{position: relative;}
+.underline-s1:before {
+    content: "";
+    position:relative;
+    width:100%;
+    height: 2.45em;
+    left: 0;
+    z-index:-10;
+    background-image: url('/custom/svg/underline-s1.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.underline-s1:after {
+    content: "";
+    position:absolute;
+    width:100%;
+    height: 2.45em;
+    left: 0;
+    z-index:-10;
+    background-image: url('/custom/svg/underline-s1.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+/* SVG Underline Style 1 (end) */
+
+/* SVG Underline Style 2 (start) */
+.underline-s2 {
+    position: relative;
+}
+.underline-s2::after {
+    content: "";
+    position: absolute;
+    bottom: -0.125rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    height: 0.75rem;
+    z-index: -1;
+    background-image: url('/custom/svg/underline-s2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* SVG Underline Style 2 (end) */
+
+/* SVG Background Style 1 (start) */
+.solana-bg-svg-s1 {
+    background-color: #EF5A29;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23FB3'/%3E%3Cstop offset='1' stop-color='%23ee5522'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23f7882b'/%3E%3Cstop offset='1' stop-color='%23ee5522'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='translate(740 0)'%3E%3Cg %3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0.2' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.solana-pill-s1 {
+    background-color: #EF5A29;
+    min-height: 250px;
+    position: relative;
+    top: -125px;
+    border: 10px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.pill-supplement {
+    height: 125px;
+}
+/* SVG Background Style 1 (end) */
+
+/* SVG Background Style 2 (start) */
+.solana-card-bg {
+    color: var(--bs-body-color);
+    background-color: #FFFFFF;
+    -webkit-transition: background 0.75s; /* For Safari 3.0 to 6.0 */
+    transition: background 0.75s; /* For modern browsers */
+}
+.solana-card-bg:hover {
+    background-color: #EF5A29;
+    background-attachment: scroll;
+    background-size: cover;
+    cursor: pointer;
+    border: 1px solid #EF5A29!important;
+    color: #FFFFFF;
+}
+/* SVG Background Style 2 (end) */
+
+/* Footer (start) */
+.footer-menu-links > a {
+    color: var(--bs-white)!important;
+}
+.footer-menu-links > a:hover {
+    -webkit-text-decoration-color: var(--bs-white)!important;
+    text-decoration-color: var(--bs-white)!important;
+}
+/* Footer (end) */
+
+/* Letter Spacing */
+.char-space-25 {
+    letter-spacing: 0.20em;
+}
+
+/* ----- OLD CODES ----- */
+/* -------------------------------------------------------------------------------------------------------------------*/
+
+/* Background Colors */
+/* ----------------- */
+.bl-bg-black {background-color: black;}
+.bl-bg-pink {background-color: pink;}
+
+/* Font Size */
+/* --------- */
+.bl-fs-1 {font-size: calc(2.375rem + 1.5vw);}
+.bl-fs-2 {font-size: calc(2.325rem + 0.9vw);}
+.bl-fs-3 {font-size: calc(2.3rem + 0.6vw);}
+.bl-fs-4 {font-size: calc(2.275rem + 0.3vw);}
+.bl-fs-5 {font-size: 2.25rem;}
+.bl-fs-6 {font-size: 2rem;}
+
+/* Container Height */
+.bl-vh-25 {min-height: 25vh!important;}
+.bl-vh-35 {min-height: 35vh!important;}
+.bl-vh-40 {min-height: 40vh!important;}
+.bl-vh-50 {min-height: 50vh!important;}
+.bl-vh-70 {min-height: 70vh!important;}
+.bl-vh-75 {min-height: 75vh!important;}
+.bl-vh-80 {min-height: 80vh!important;}
+.bl-vh-85 {min-height: 85vh!important;}
+.bl-vh-100 {min-height: 100vh!important;}
+
+
+@media (min-width: 1200px) {
+    .bl-fs-1 {
+        font-size: calc(3.375rem + 1.5vw) !important;
+    }
+
+    .bl-fs-2 {
+        font-size: calc(3.325rem + 0.9vw) !important;
+    }
+
+    .bl-fs-3 {
+        font-size: calc(3.3rem + 0.6vw) !important;
+    }
+
+    .bl-fs-4 {
+        font-size: calc(3.275rem + 0.3vw) !important;
+    }
+
+    .bl-fs-5 {
+        font-size: 3.25rem !important;
+    }
+
+    .bl-fs-6 {
+        font-size: 3rem !important;
+    }
+}

@@ -1,0 +1,136 @@
+/* Background Color */
+.kv-bg-black {background-color: black;}
+.kv-bg-white {background-color: white;}
+.kv-bg-pink {background-color: pink;}
+.kv-bg-gray {background-color: #545454;}
+
+/* Background Image Pan On Hover
+ * Pan the background image from left to right on mouse hover
+ */
+.kv-bg-pan-hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    transition: 0.7s!important;
+}
+.kv-bg-pan-hover:hover {
+    background-position: right;
+}
+
+/* Background Image
+ */
+.kv-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Background Image */
+.kv-image-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.kv-image-fixed {
+    background-attachment: fixed;
+}
+
+/* Border */
+.kv-border-light {border: 1px solid #545454;}
+
+/* Font Color */
+.kv-text-orange {color: #fe6600;}
+
+/* Font Family */
+.kv-font-noto {
+    font-family: 'Noto Serif HK', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kv-font-merriweather {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* HEADER */
+.navbar-toggler-icon-dark {
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-dark { border: 1px solid rgba(0, 0, 0, 0.1); }
+.kvanar-header-white { background-color: #FFFFFF; }
+
+.kv-header-nav-link-dark a {
+    color: #545454;
+}
+
+.kv-header-nav-link a:hover,
+.kv-header-nav-link-dark a:hover {
+    color: #fe6600;
+}
+
+/* SVG */
+.kv-header-nav-link .svg-link-active {
+    transition: 0.7s!important;
+}
+.kv-header-nav-link .svg-link-active:hover {
+    fill: #fe6600;
+}
+
+/* Height */
+.kv-vh-25min {min-height: 25vh!important;}
+.kv-vh-35min {min-height: 35vh!important;}
+.kv-vh-40min {min-height: 40vh!important;}
+.kv-vh-50min {min-height: 50vh!important;}
+.kv-vh-70min {min-height: 70vh!important;}
+.kv-vh-75min {min-height: 75vh!important;}
+.kv-vh-80min {min-height: 80vh!important;}
+.kv-vh-85min {min-height: 85vh!important;}
+
+.kv-vh-25 {height: 25vh!important;}
+.kv-vh-35 {height: 35vh!important;}
+.kv-vh-40 {height: 40vh!important;}
+.kv-vh-50 {height: 50vh!important;}
+.kv-vh-70 {height: 70vh!important;}
+.kv-vh-75 {height: 75vh!important;}
+.kv-vh-80 {height: 80vh!important;}
+.kv-vh-85 {height: 85vh!important;}
+.kv-vh-100 {height: 100vh!important;}
+
+.kv-vh-25max {max-height: 25vh!important;}
+.kv-vh-35max {max-height: 35vh!important;}
+.kv-vh-40max {max-height: 40vh!important;}
+.kv-vh-50max {max-height: 50vh!important;}
+.kv-vh-70max {max-height: 70vh!important;}
+.kv-vh-75max {max-height: 75vh!important;}
+.kv-vh-80max {max-height: 80vh!important;}
+.kv-vh-85max {max-height: 85vh!important;}
+
+.kv-vh-inherit {min-height: inherit!important;}
+
+/* Links */
+a.kv-link {
+    color: #fe6600;
+    text-decoration: none;
+}
+a.kv-link:hover {
+    color: #4da6ff;
+}
+a.kv-link-dark {
+    text-decoration: none;
+    color: #6c757d;
+}
+a.kv-link-dark:hover {
+    color: #fe6600;
+}
+a.kv-link-tel {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Width */
+.kv-width-max {
+    max-width: 100%;
+}
