@@ -133,6 +133,9 @@
 }
 
 /* Temporary */
+.fs-regular {
+    font-size: 1.25em!important;
+}
 .menu-label {
     font-size: 1.25em!important;
 }
@@ -148,6 +151,9 @@
         height: 200px!important;
     }
     .menu-label {
+        font-size: calc(1.3rem + 0.6vw) !important;
+    }
+    .fs-regular {
         font-size: calc(1.3rem + 0.6vw) !important;
     }
 }
