@@ -132,6 +132,26 @@
     letter-spacing: 0.20em;
 }
 
+/* Temporary */
+.menu-label {
+    font-size: 1.25em!important;
+}
+.menu-images {
+    min-height: 160px!important;
+}
+.menu-images > img {
+    height: 110px!important;
+}
+@media (min-width: 768px) {
+    .menu-images > img {
+        width: revert;
+        height: 200px!important;
+    }
+    .menu-label {
+        font-size: calc(1.3rem + 0.6vw) !important;
+    }
+}
+
 /* ----- OLD CODES ----- */
 /* -------------------------------------------------------------------------------------------------------------------*/
 
