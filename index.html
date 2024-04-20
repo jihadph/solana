@@ -55,28 +55,28 @@
         <!-- Brand Logo (start) -->
         <a class="navbar-brand" href="#">
             <img src="custom/img/solana-logo.svg" alt="" width="90" class="d-inline-block">
-            <span class="display-6 font-satisfy-regular fw-semibold solana-font-color">Solana</span>
+            <span class="display-6 font-satisfy-regular fw-semibold solana-font-color d-none">Solana</span>
         </a>
 
         <!-- Menu Links for large devices. (start) -->
         <!-- This menu is visible only to large devices or wide screens. -->
         <div class="d-none d-lg-inline-block">
             <div id="navbarNavAltMarkup" class="navbar-nav justify-content-end">
-                <div class="row gx-5 fw-semibold">
-                    <div class="col">
-                        <a class="nav-link nav fs-6 active" aria-current="page" href="#">MENU</a>
+                <div class="row gx-5 fw-semibold  char-space-25">
+                    <div class="col-2">
+                        <a class="nav-link nav active" aria-current="page" href="#">MENU</a>
                     </div>
-                    <div class="col">
-                        <a class="nav-link fs-6" href="#">CATERING</a>
+                    <div class="col-2">
+                        <a class="nav-link" href="#">CATERING</a>
                     </div>
-                    <div class="col">
-                        <a class="nav-link fs-6" href="#">LOCATION</a>
+                    <div class="col-2">
+                        <a class="nav-link" href="#">LOCATION</a>
                     </div>
-                    <div class="col">
-                        <a class="nav-link fs-6" href="#">ABOUT</a>
+                    <div class="col-2">
+                        <a class="nav-link" href="#">ABOUT</a>
                     </div>
-                    <div class="col">
-                        <a class="btn solana-btn fs-6 fw-semibold rounded-pill px-4" role="button" href="#">RESERVATION</a>
+                    <div class="col-4">
+                        <a class="btn solana-btn fs-6 fw-semibold rounded-pill px-4 py-2" role="button" href="#">RESERVE NOW</a>
                     </div>
                 </div>
             </div>
@@ -84,10 +84,13 @@
 
         <!-- Toggler and Offcanvas Menu (start) -->
         <div class="d-lg-none">
+            <a class="btn solana-btn rounded-pill px-3 py-2 fw-semibold" role="button" href="#">RESERVE NOW</a>
+        </div>
+        <div class="d-lg-none">
 
             <!-- Toggler Button (start) -->
             <!-- This toggler targets the offcanvas menu -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -99,8 +102,11 @@
                 <div class="row">
 
                     <div class="col-12">
-                        <div class="offcanvas-header justify-content-center mt-3">
-                            <span class="display-5 font-satisfy-regular fw-semibold solana-font-color">Solana</span>
+                        <div class="offcanvas-header justify-content-center">
+                            <div style="width: 40%;">
+                                <img src="custom/img/solana-logo.svg" alt="" width="90" class="d-inline-block">
+                            </div>
+                            <a class="btn solana-btn rounded-pill py-2 fw-semibold" role="button" href="#">RESERVE NOW</a>
                             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                     </div>
@@ -115,7 +121,7 @@
                                 <a class="list-group-item list-group-item-action px-3 py-4" href="#">ABOUT US</a>
                                 <a class="list-group-item list-group-item-action px-3 py-4" href="#">CONTACT US</a>
                             </div>
-                            <div class="d-grid my-4">
+                            <div class="d-grid my-4 d-none">
                                 <a class="btn solana-btn rounded-pill p-3 fw-semibold" role="button" href="#">RESERVATION</a>
                             </div>
                         </div>
@@ -197,7 +203,7 @@
 
                 <!-- Slide 3 -->
                 <div class="swiper-slide">
-                    <div class="image-container" style="background-image: url('/custom/img/meal-01.jpg');">
+                    <div class="image-container" style="background-image: url('/custom/img/meal-06.jpg');">
 
                         <!-- Black Background with Opacity -->
                         <div class="min-vh-100 text-white swiper-text-container">
