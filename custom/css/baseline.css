@@ -5,6 +5,9 @@
 .solana-default-bg {
     background-color: #EF5A29;
 }
+.solana-bg-dark {
+    background-color: #d66b29;
+}
 .solana-font-white {
     color: #FFFFFF;
 }
@@ -89,14 +92,14 @@
 }
 .solana-pill-s1 {
     background-color: #EF5A29;
-    min-height: 250px;
+    min-height: 300px;
     position: relative;
-    top: -125px;
-    border: 10px solid #FFFFFF;
+    top: -150px;
+    border: 5px solid #FFFFFF;
     color: #FFFFFF;
 }
 .pill-supplement {
-    height: 125px;
+    height: 150px;
 }
 /* SVG Background Style 1 (end) */
 
@@ -156,6 +159,22 @@
     .fs-regular {
         font-size: calc(1.3rem + 0.6vw) !important;
     }
+}
+
+/* background */
+.solana-bg-photo-01 {
+    background-image: url('/custom/img/solana-onsite-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.solana-bg-photo-02 {
+    background-image: url('/custom/img/resto-04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* ----- OLD CODES ----- */
